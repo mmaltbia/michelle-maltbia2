@@ -1,0 +1,125 @@
+/*
+Theme Name: Michelle Maltbia
+Author: Michelle Maltbia
+Author URI: http://www.michellemaltbia.com
+Version: 1.0
+*/
+
+html, body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-weight: 700;
+}
+h2{
+    color: #fff;
+}
+ul li {
+  display: inline;
+
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #8d8d8d;
+}
+
+.gradient-bg {
+    background: linear-gradient(270deg, #59d5bd, #519bdf, #c7f58d);
+    background-size: 800% 800%;
+
+    -webkit-animation: gradientAnimation 5s ease infinite;
+    -moz-animation: gradientAnimation 5s ease infinite;
+    animation: gradientAnimation 5s ease infinite;
+}
+@-webkit-keyframes gradientAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes gradientAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes gradientAnimation { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.gradient-hr {
+    height: 10px;
+    background: linear-gradient(270deg, #59d5bd, #519bdf, #c7f58d);
+    background-size: 800% 800%;
+    -webkit-box-shadow: inset -1px 4px 9px -3px rgb(25, 96, 146);
+    -moz-box-shadow: inset -1px 4px 9px -3px rgb(25, 96, 146);
+    box-shadow: inset -1px 4px 9px -3px rgb(25, 96, 146);
+
+    -webkit-animation: gradientAnimation 5s ease infinite;
+    -moz-animation: gradientAnimation 5s ease infinite;
+    animation: gradientAnimation 5s ease infinite;
+}
+@-webkit-keyframes gradientAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes gradientAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes gradientAnimation { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+#headshot {
+  max-height: 200px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#social-media-list {
+  padding: 0px;
+  padding-bottom: 15px;
+}
+
+ul li img {
+  height: 35px;
+}
+
+.btn-skill {
+    color: #333;
+    background-color: #dcdcdc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-skill:hover {
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: default;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 867px) { 
+    .img-left {
+        margin-left: -100px;
+    }
+
+    .img-right { 
+        margin-right: -34px;
+    }
+}
