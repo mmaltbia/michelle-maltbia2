@@ -1,6 +1,6 @@
 # Michelle Maltbia Portfolio Site
 
-This is the portfolio site of Michelle Maltbia
+This is the portfolio site of [Michelle Maltbia](http://michellemaltbia.com). 
 
 ## Creator
 
