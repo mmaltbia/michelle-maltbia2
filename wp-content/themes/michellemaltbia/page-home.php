@@ -12,11 +12,37 @@
         </div>
     </div>         
 </div>
-<div id="work" class="container-fluid" style="padding-top: 65px;padding-bottom: 65px;">
+<div class="container-fluid" style="background:#000;padding-top:50px;padding-">
     <div class="row">
-        <div class="col-xs-12 text-center" style="padding-bottom: 55px;text-transform: uppercase;">
+        <div class="col-xs-12 text-center" style="padding-bottom: 55px;text-transform: uppercase;color:#fff;">
             <h1>Portfolio</h1>
         </div>
+        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
+            <?php 
+            $hyperMain = get_bloginfo('template_directory').'/images/hyper-main.png';
+                $imagesPath = '/images/hyper-main.png';
+            ?>
+            <img src="<?php echo get_bloginfo('template_directory')?>/images/hyper-logo.png" alt="" width="100%">
+            <h2 class="text-right" style="text-transform:uppercase;letter-spacing:2.5px;font-size: 13.5px;">Digital Viewing Party</h2>
+            <br>
+            <p class="text-center" style="color: #fff;">
+                Hyper is the ultimate fan engagement platform. Hyper utilizes Amazon's Alexa technology to take an image of the screen whenever a user voices a verbal reaction in response to the show or movie they are watching.
+                <br><br>
+            </p>
+            <div class="text-center">
+                <a href="http://hypenbc.mybluemix.net/videos" class="btn btn-primary" style="color: #fff;">See it in Action!</a>
+            </div>
+            <div>
+                <div class="col-xs-12" style="padding-top:50px;">
+                    <img src="<?php echo $hyperMain ?>" width="100%">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div id="work" class="container-fluid" style="padding-top: 65px;padding-bottom: 65px;">
+    <div class="row">
         <div class="col-xs-12">
             <div class="col-xs-12 col-sm-8">
                 <img src="<?php echo get_bloginfo('template_directory');?>/images/media-mash-main.png" width="100%" class="img-left">
@@ -31,6 +57,9 @@
                 
             </div>
         </div>
+    </div>
+</div>
+<div id="lmd" class="container-fluid">
         <div class="col-xs-12">
             <br><br><br><br>
             <div class="col-xs-12 col-sm-5">
@@ -81,8 +110,8 @@
             <?php } ?>
 -->
         </div>
-        </div>
-        <div class="row">
+</div>
+<div class="row" style="padding-bottom: 80px;">
             <div class="col-xs-12 text-center" style="padding-bottom: 55px;">
                 <br><br>
                 <h1>Skills</h1>
