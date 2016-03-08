@@ -78,6 +78,33 @@ p{
     100%{background-position:0% 50%}
 }
 
+#lmd {
+    background: linear-gradient(to top right, #fea603, #fe2d03, #e203fe, #fede03);
+    background-size: 800% 800%;
+    -webkit-box-shadow: inset -1px 4px 9px -3px rgb(25, 96, 146);
+    -moz-box-shadow: inset -1px 4px 9px -3px rgb(25, 96, 146);
+    box-shadow: inset -1px 4px 9px -3px rgb(25, 96, 146);
+
+    -webkit-animation: gradientAnimation 5s ease infinite;
+    -moz-animation: gradientAnimation 5s ease infinite;
+    animation: gradientAnimation 5s ease infinite;
+}
+@-webkit-keyframes gradientAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes gradientAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes gradientAnimation { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
 
 #headshot {
   max-height: 200px;

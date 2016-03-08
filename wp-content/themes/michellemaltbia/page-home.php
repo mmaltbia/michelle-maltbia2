@@ -12,15 +12,14 @@
         </div>
     </div>         
 </div>
-<div class="container-fluid" style="background:#000;padding-top:50px;padding-">
+<div id="hyper"class="container-fluid" style="background:#000;padding-top:50px;">
     <div class="row">
         <div class="col-xs-12 text-center" style="padding-bottom: 55px;text-transform: uppercase;color:#fff;">
             <h1>Portfolio</h1>
         </div>
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
             <?php 
-            $hyperMain = get_bloginfo('template_directory').'/images/hyper-main.png';
-                $imagesPath = '/images/hyper-main.png';
+            $imgPath = get_bloginfo('template_directory').'/images/';
             ?>
             <img src="<?php echo get_bloginfo('template_directory')?>/images/hyper-logo.png" alt="" width="100%">
             <h2 class="text-right" style="text-transform:uppercase;letter-spacing:2.5px;font-size: 13.5px;">Digital Viewing Party</h2>
@@ -34,13 +33,105 @@
             </div>
             <div>
                 <div class="col-xs-12" style="padding-top:50px;">
-                    <img src="<?php echo $hyperMain ?>" width="100%">
+                    <img src="<?php echo $imgPath.'/hyper-main.png' ?>" width="100%">
                 </div>
                 
             </div>
         </div>
     </div>
 </div>
+<div id="lacy" class="container-fluid" style="background-image: url('<?php echo $imgPath.'/lacy/grey-shirt.jpg' ?>');background-size:cover;background-attachment: fixed;padding-top:100px;">
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
+            <object width="100%" data="<?php echo $imgPath.'/lacy/lacy-logo.svg'?>" type="image/svg+xml"></object>
+            <br>
+            <div class="col-xs-12" style="background: #fff;border: solid #000 8px;padding-top: 30px;">
+                <p class="text-center" style="color: #000;">
+                    Lacy is a luxury fashion jewelry line. This project required that the final build be fluid, graceful and meet brand guidelines. 
+                    <br><br>
+                </p>                
+            </div>
+            <div class="text-center">
+                <a href="http://lacy-jewelry-co.herokuapp.com" class="btn btn-primary" style="color: #fff;margin-top:25px;">See it in Action!</a>
+            </div>
+            <div>
+                <div class="col-xs-12" style="padding-top:50px;">
+                    <img src="<?php echo $imgPath.'/lacy/home.png' ?>" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="" class="container-fluid" style="background-image: url('<?php echo $imgPath.'/media-mash/media-bg.jpg' ?>');background-size:cover;background-attachment: fixed;padding-top:100px;">
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
+            <h1 class="text-center" style="text-transform: uppercase;color:#000;font-size:50px">Media Mash</h1>
+            <br>
+            <div class="col-xs-12" style="background:rgba(0, 0, 0, 0.8);padding-top: 30px;">
+                <p class="text-center" style="color: #fff;">
+                    Media Mash is a search one and done high quality free image search tool. 
+                    <br>
+                </p>
+                <div class="text-center">
+                    <a href="http://media-mash.michellemaltbia.com" class="btn btn-primary" style="color: #fff;margin-bottom:25px;">See it in Action!</a>
+                </div>                
+            </div>
+            
+            <div>
+                <div class="col-xs-12" style="padding-top:50px;">
+                    <img src="<?php echo $imgPath.'/media-mash/media1.png' ?>" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="lmd" class="container-fluid" style="padding-top:50px;">
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
+            <object class="col-xs-4 col-xs-offset-4" width="50%" data="<?php echo $imgPath.'/lmd/logo.svg'?>" type="image/svg+xml"></object>
+            <br>
+            <div class="col-xs-12">
+                <p class="text-center" style="color: #fff;">
+                    Lauren Michelle Design is a full service brand development company. You can check out even more of my work here!
+                    <br>
+                </p>
+                <div class="text-center">
+                    <a href="http://laurenmichelledesign.com" class="btn btn-primary" style="color: #fff;margin-bottom:25px;">See it in Action!</a>
+                </div>                
+            </div>
+
+            <div>
+                <div class="col-xs-12" style="padding-top:50px;">
+                    <img src="<?php echo $imgPath.'/lmd/main.png' ?>" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="bg" class="container-fluid" style="background-image: url('<?php echo $imgPath.'/bg/bg.jpg' ?>');background-size:cover;background-attachment: fixed;padding-top:100px;">
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
+            <h1 class="text-center" style="text-transform: uppercase;color:#000;font-size:50px">Background Graphics API</h1>
+            <br>
+            <div class="col-xs-12">
+                <p class="text-center" style="color: #333;">
+                    I created this tool for easily updating the graphics API I built. It is the companion app to "Media Mash".
+                    <br>
+                </p>
+                <div class="text-center">
+                    <a href="http://laurenmichelledesign.com" class="btn btn-primary" style="color: #333;margin-bottom:25px;">See it in Action!</a>
+                </div>                
+            </div>
+
+            <div>
+                <div class="col-xs-12" style="padding-top:50px;">
+                    <img src="<?php echo $imgPath.'/bg/main.png' ?>" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--
 <div id="work" class="container-fluid" style="padding-top: 65px;padding-bottom: 65px;">
     <div class="row">
         <div class="col-xs-12">
@@ -48,7 +139,7 @@
                 <img src="<?php echo get_bloginfo('template_directory');?>/images/media-mash-main.png" width="100%" class="img-left">
             </div>
             <div class="col-xs-12 col-sm-4">
-                <h1>Media Mash</h1>
+                <h1 style="text-transform: uppercase;color:#000;">Media Mash</h1>
                 <a href="http://media-mash.michellemaltbia.com">www.media-mash.michellemaltbia.com</a>
                 <h3>Unstock Image Search</h3>
                 <h5>Technology: JavaScript/jQuery, Flickr API, HTML5/CSS3</h5>
@@ -59,59 +150,9 @@
         </div>
     </div>
 </div>
-<div id="lmd" class="container-fluid">
-        <div class="col-xs-12">
-            <br><br><br><br>
-            <div class="col-xs-12 col-sm-5">
-                <h1>Lauren Michelle Design</h1>
-                <a href="http://landisforvallejomayor.com">www.laurenmichelledesign.com</a>
-                <h3>Website Update</h3>
-                <h5>Technology: JavaScript/jQuery, PHP, HTML5/CSS3</h5>
-                <br>
-                <p>Website refresh to showcase portfolio and engage potential clients.</p>
-            </div>
-            <div class="col-xs-12 col-sm-7 text-right">
-                <img src="<?php echo get_bloginfo('template_directory');?>/images/lmd-main.png" width="100%" class="img-right">
-            </div>
-        </div>
-        <div class="col-xs-12">
-            <br><br><br><br>
-            <div class="col-xs-12 col-sm-8">
-                <img src="<?php echo get_bloginfo('template_directory');?>/images/landis-main.png" class="img-left" width="100%">
-            </div>
-            <div class="col-xs-12 col-sm-4 text-left">
-                <h1>Landis for Mayor</h1>
-                <a href="http://landisforvallejomayor.com">www.landisforvallejomayor.com</a>
-                <h3>Custom Website Solution</h3>
-                <h5>Technology: JavaScript/jQuery, PHP, HTML5/CSS3</h5>
-                <br>
-                <p>Custom site that allows user to engage with the candidate. Users can donate to the campaign, sign up to volunteer, and submit an issue to name a few.</p>
-            </div>
-<!--
-            <?php 
-            $data = get_option('page_portfolio');
-            $length = count($data);
-            for($i=0; $i< $length; $i++){ ?>
-                <div class="col-sm-4">
-                    <a href="<?php echo home_url();?><?php echo $data[$i]['block1_slug'] ?>">
-                        <?php 
-                            $filetype = wp_check_filetype($data[$i]['block1_img']);
-                            if($filetype['ext'] === "svg" ){ ?>
-                                <object type="image/svg+xml" data="<?php echo $data[$i]['block1_img']?>" style="width: 100%;"></object>
-                        <?php }
-                            else if($filetype['ext'] === 'jpg' || 'png'){ ?>
-                                <img src="<?php echo $data[$i]['block1_img']?>" style="width:100%;">
-                            <?php } ?>
-                    </a>
-                    <div class="text-center">
-                        <a class="btn btn-primary" href="<?php echo home_url();?><?php echo $data[$i]['block1_slug'] ?>">Project Details</a>
-                    </div>
-                </div>
-            <?php } ?>
 -->
-        </div>
-</div>
-<div class="row" style="padding-bottom: 80px;">
+
+        <div class="row" style="padding-bottom: 80px;">
             <div class="col-xs-12 text-center" style="padding-bottom: 55px;">
                 <br><br>
                 <h1>Skills</h1>
@@ -139,8 +180,10 @@
                 <li class="btn btn-skill">SQL</li>
             </div>
         </div>
+<!--
     </div>
 </div>
+-->
 <div id="about" class="container-fluid gradient-bg" style="padding-top:20px; padding-bottom: 50px;">
     <div class="row">
         <div class="col-xs-12 text-center" style="padding-bottom: 35px; color: #fff;">
